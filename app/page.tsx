@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main>
-      <h1>hellodasdadasdadasdadada there</h1>
+      <h1></h1>
     </main>
-  )
+  );
 }

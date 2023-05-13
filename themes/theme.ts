@@ -48,7 +48,39 @@ declare module "@mui/joy/styles" {
   }
 }
 
+declare module "@mui/material/styles" {
+  interface BreakpointOverrides {
+    xs: false; // removes the `xs` breakpoint
+    sm: false;
+    md: false;
+    lg: false;
+    xl: false;
+    mobile: true; // adds the `mobile` breakpoint
+    tablet: true;
+    laptop: true;
+    desktop: true;
+  }
+}
+
 export const customTheme = extendTheme({
+  colorSchemes: {
+    light: {
+      palette: {
+        primary: {
+          50: "#feece3",
+          100: "#fdc6ac",
+          200: "#fba175",
+          300: "#fa7b3e",
+          400: "#f85507",
+          500: "#c14205",
+          600: "#8a2f04",
+          700: "#531c02",
+          800: "#531c02",
+          900: "#1c0901",
+        },
+      },
+    },
+  },
   components: {
     JoyTypography: {
       defaultProps: {

@@ -1,5 +1,5 @@
 import { AuthModal } from "@/components/modals/AuthModal";
-import FlexBox from "@/components/styled/Box/FlexBox";
+import { FlexBox } from "@/components/styled/Box/Flex";
 import { RoundedButton } from "@/components/styled/Button/Rounded";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { Avatar, Menu, MenuItem } from "@mui/joy";

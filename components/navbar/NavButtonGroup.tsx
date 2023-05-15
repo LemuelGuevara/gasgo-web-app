@@ -1,8 +1,7 @@
 import MapRoundedIcon from "@mui/icons-material/MapRounded";
 import SpaceDashboardRoundedIcon from "@mui/icons-material/SpaceDashboardRounded";
 import { Box, Typography } from "@mui/joy";
-import FlexBetween from "../styled/Box/FlexBetween";
-import FlexBox from "../styled/Box/FlexBox";
+import { FlexBox, FlexBetween } from "../styled/Box/Flex";
 import { RoundedButtonGroup } from "../styled/Button/Rounded";
 import { NavLink } from "./NavLink";
 

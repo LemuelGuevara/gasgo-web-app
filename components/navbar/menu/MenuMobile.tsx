@@ -1,8 +1,8 @@
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import LocalGasStationOutlinedIcon from "@mui/icons-material/LocalGasStationOutlined";
-import GasMeterOutlinedIcon from '@mui/icons-material/GasMeterOutlined';
-import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
+import GasMeterOutlinedIcon from "@mui/icons-material/GasMeterOutlined";
+import SpaceDashboardOutlinedIcon from "@mui/icons-material/SpaceDashboardOutlined";
 import { useRouter } from "next/navigation";
 import { Box, Stack, Typography } from "@mui/joy";
 
@@ -24,7 +24,7 @@ const MenuMobileTab: React.FC<MenuMobileProps> = (props) => {
       alignItems="center"
       justifyContent="center"
       width="25%"
-      sx={{cursor: "pointer"}}
+      sx={{ cursor: "pointer" }}
       onClick={() => router.push(props.link)}
     >
       <Box color={props.color}>{props.icon}</Box>
@@ -43,7 +43,7 @@ export const MenuMobile = () => {
     {
       menuText: "Home",
       menuLink: "/",
-      menuIcon: <SpaceDashboardOutlinedIcon  sx={{ fontSize: iconSize }} />,
+      menuIcon: <SpaceDashboardOutlinedIcon sx={{ fontSize: iconSize }} />,
     },
     {
       menuText: "Stations",
@@ -60,6 +60,8 @@ export const MenuMobile = () => {
         width: "100%",
         borderTop: "1px solid",
         borderColor: "divider",
+        zIndex: 99999,
+        backgroundColor: "white"
       }}
     >
       <Stack
@@ -79,20 +81,19 @@ export const MenuMobile = () => {
         ))}
         {isAuthenticated ? (
           <MenuMobileTab
-          text={"Profile"}
-          link={"/profile"}
-          color={"text.tertiary"}
-          icon={<AccountCircleOutlinedIcon sx={{ fontSize: iconSize }} />}
-        />
+            text={"Profile"}
+            link={"/profile"}
+            color={"text.tertiary"}
+            icon={<AccountCircleOutlinedIcon sx={{ fontSize: iconSize }} />}
+          />
         ) : (
           <MenuMobileTab
-          text={"Log in"}
-          link={"/login"}
-          color={"text.tertiary"}
-          icon={<AccountCircleOutlinedIcon sx={{ fontSize: iconSize }} />}
-        />
+            text={"Log in"}
+            link={"/login"}
+            color={"text.tertiary"}
+            icon={<AccountCircleOutlinedIcon sx={{ fontSize: iconSize }} />}
+          />
         )}
-        
       </Stack>
     </Box>
   );

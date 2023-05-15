@@ -2,7 +2,7 @@
 
 import { Box } from "@mui/joy";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import FlexBox from "../styled/Box/FlexBox";
+import { FlexBox } from "../styled/Box/Flex";
 import Logo from "./Logo";
 import { NavButtonGroup } from "./NavButtonGroup";
 import { NavSearchBar } from "./NavSearchBar";
@@ -11,7 +11,7 @@ import { useTheme } from "@mui/material/styles";
 import { MenuMobile } from "./menu/MenuMobile";
 import { Header, MobileHeader } from "../styled/Layouts";
 
-const Navbar = () => {
+export const Navbar = () => {
   const theme = useTheme();
 
   const isDesktopScreens = useMediaQuery(theme.breakpoints.up(950));

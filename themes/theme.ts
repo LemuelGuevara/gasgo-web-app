@@ -78,6 +78,18 @@ export const customTheme = extendTheme({
           800: "#531c02",
           900: "#1c0901",
         },
+        neutral: {
+          50: "#f0f2f5",
+          100: "#d2d7e0",
+          200: "#b4bdcb",
+          300: "#95a3b6",
+          400: "#7788a1",
+          500: "#5e6f88",
+          600: "#49566a",
+          700: "#343e4b",
+          800: "#1f252d",
+          900: "#0a0c0f",
+        },
       },
     },
   },
@@ -106,7 +118,7 @@ export const customTheme = extendTheme({
     },
   },
   fontFamily: {
-    body: "'Inter', var(--joy-fontFamily-fallback)",
+    body: "'Poppins', var(--joy-fontFamily-fallback)",
   },
   typography: {
     // @ts-ignore

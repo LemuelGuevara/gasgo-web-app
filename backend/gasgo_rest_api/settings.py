@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'rest_framework',
+    'django_extensions',
     'stations_app',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -77,12 +78,12 @@ WSGI_APPLICATION = 'gasgo_rest_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'K7GGHwBtHo9ohtNLC02g',
-        'HOST': 'containers-us-west-57.railway.app',
-        'PORT': '6748',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'lemuelguevara',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 

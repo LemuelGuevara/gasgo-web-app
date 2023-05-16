@@ -10,8 +10,12 @@ class Location(models.Model):
 
 
 class Viewport(models.Model):
-    northeast = models.OneToOneField(Location, on_delete=models.CASCADE, related_name='northeast')
-    southwest = models.OneToOneField(Location, on_delete=models.CASCADE, related_name='southwest')
+    northeast = models.OneToOneField(
+        Location, on_delete=models.CASCADE, related_name="northeast"
+    )
+    southwest = models.OneToOneField(
+        Location, on_delete=models.CASCADE, related_name="southwest"
+    )
 
 
 class Geometry(models.Model):
@@ -24,6 +28,10 @@ class Photo(models.Model):
     html_attributions = ArrayField(models.CharField(max_length=200))
     photo_reference = models.CharField(max_length=500)
     width = models.IntegerField()
+
+
+class OpeningHours(models.Model):
+    open_now = models.BooleanField()
 
 
 class Place(models.Model):
@@ -41,3 +49,6 @@ class Place(models.Model):
     types = ArrayField(models.CharField(max_length=50))
     user_ratings_total = models.IntegerField()
     vicinity = models.CharField(max_length=100)
+    opening_hours = models.OneToOneField(
+        OpeningHours, on_delete=models.CASCADE, blank=True, null=True
+    )

@@ -1,24 +1,30 @@
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
-# Create your models here.  
+
+
+# Create your models here.
 
 class Location(models.Model):
     lat = models.FloatField()
     lng = models.FloatField()
 
+
 class Viewport(models.Model):
     northeast = models.OneToOneField(Location, on_delete=models.CASCADE, related_name='northeast')
     southwest = models.OneToOneField(Location, on_delete=models.CASCADE, related_name='southwest')
 
+
 class Geometry(models.Model):
     location = models.OneToOneField(Location, on_delete=models.CASCADE)
     viewport = models.OneToOneField(Viewport, on_delete=models.CASCADE)
+
 
 class Photo(models.Model):
     height = models.IntegerField()
     html_attributions = ArrayField(models.CharField(max_length=200))
     photo_reference = models.CharField(max_length=500)
     width = models.IntegerField()
+
 
 class Place(models.Model):
     business_status = models.CharField(max_length=50)

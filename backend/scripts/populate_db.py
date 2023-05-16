@@ -1,7 +1,6 @@
 import json
 from tqdm import tqdm as tq
-
-from stations_app.models import Place, Geometry, Location, Viewport, Photo
+from stations_app.models import Place, Geometry, Location, Viewport, Photo, OpeningHours
 
 default_value = 0
 
@@ -22,6 +21,12 @@ for item in tq(data):
     )
     viewport = Viewport.objects.create(northeast=northeast, southwest=southwest)
     geometry = Geometry.objects.create(location=location, viewport=viewport)
+
+    opening_hours = OpeningHours.objects.create(open_now=False)
+    if "opening_hours" in item:
+        opening_hours_data = item["opening_hours"]
+        opening_hours = OpeningHours.objects.create(open_now=opening_hours_data["open_now"])
+
     place = Place.objects.create(
         business_status=item["business_status"],
         geometry=geometry,
@@ -36,6 +41,7 @@ for item in tq(data):
         types=item["types"],
         user_ratings_total=item.get("user_ratings_total", default_value),
         vicinity=item["vicinity"],
+        opening_hours=opening_hours
     )
     if "photos" in item:
         for photo_data in item["photos"]:

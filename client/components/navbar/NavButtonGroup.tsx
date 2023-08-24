@@ -16,7 +16,7 @@ export const NavButtonGroup = () => {
     },
     {
       nav: "Map",
-      link: "/map",
+      link: "/",
       icon: <MapRoundedIcon sx={{ fontSize: iconSize }} />,
     },
   ];

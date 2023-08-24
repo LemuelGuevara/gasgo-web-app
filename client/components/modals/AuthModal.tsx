@@ -9,7 +9,7 @@ import {
   ModalClose,
   ModalDialog,
   Stack,
-  Typography
+  Typography,
 } from "@mui/joy";
 import React from "react";
 import { RoundedButton } from "../styled/Button/Rounded";
@@ -23,6 +23,14 @@ interface AuthButtonProps {
   bgColor?: string;
   hoverBgColor?: string;
 }
+
+interface AuthForm {
+  userName: string;
+  userEmail: string;
+  userPassword: string;
+}
+
+async function submitAuth(formData: FormData) {}
 
 const AuthModalButton: React.FC<AuthButtonProps> = (props) => {
   return (
@@ -50,7 +58,10 @@ const AuthModalButton: React.FC<AuthButtonProps> = (props) => {
   );
 };
 
-export const AuthModal = (props: { openModal: any; setOpenModal: any }) => {
+export const AuthModal = (props: {
+  openModal: any;
+  setOpenModal: any;
+}) => {
   const { openModal, setOpenModal } = props;
 
   return (
@@ -79,12 +90,7 @@ export const AuthModal = (props: { openModal: any; setOpenModal: any }) => {
             bgcolor: "background.body",
           }}
         />
-        <form
-          onSubmit={(event: React.FormEvent<HTMLFormElement>) => {
-            event.preventDefault();
-            setOpenModal(false);
-          }}
-        >
+        <form>
           <Stack spacing={2}>
             <FormControl>
               <FormLabel>Email</FormLabel>
@@ -96,6 +102,7 @@ export const AuthModal = (props: { openModal: any; setOpenModal: any }) => {
                 }
                 placeholder="johndoe@email.com"
                 sx={{ borderRadius: 12 }}
+                defaultValue="teswt"
               />
             </FormControl>
             <FormControl>

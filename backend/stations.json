@@ -1,0 +1,625 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.466603, "lng": 121.3235716 },
+      "viewport": {
+        "northeast": { "lat": 14.4679549302915, "lng": 121.3249262802915 },
+        "southwest": { "lat": 14.46525696970849, "lng": 121.3222283197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Flying V",
+    "photos": [
+      {
+        "height": 1872,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110941656466693422292\">Joseph Clemente</a>"
+        ],
+        "photo_reference": "AZose0nW1l4H51ykRUjInfpLqOueNQ93nHer7MzBuklVd0yaYaTds7fo2OdvIQ7NgfPl3X_ByNXGSwhPXwSG0k8jvqzUb9AcfEN7Sfm6im9fNqxWlLX-ucuqQ8JK1X-NMnnFY_Unvys3oRLS_AYJkg2PSj1QsTC7ChN3RDwmhezwWauLoM7i",
+        "width": 3328
+      }
+    ],
+    "place_id": "ChIJtTcvbm_plzMRv73IUck9eEg",
+    "rating": 4.3,
+    "reference": "ChIJtTcvbm_plzMRv73IUck9eEg",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 21,
+    "vicinity": "F88F+JCW, Manila East Road, Pililla"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.4813362, "lng": 121.2269264 },
+      "viewport": {
+        "northeast": { "lat": 14.4827038302915, "lng": 121.2282378302915 },
+        "southwest": { "lat": 14.4800058697085, "lng": 121.2255398697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Flying V",
+    "opening_hours": { "open_now": true },
+    "place_id": "ChIJwRRjGDDClzMR03m3z4OChy4",
+    "rating": 5,
+    "reference": "ChIJwRRjGDDClzMR03m3z4OChy4",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 4,
+    "vicinity": "F6JG+GQM, San Pedro, Cardona"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.4945452, "lng": 121.2908396 },
+      "viewport": {
+        "northeast": { "lat": 14.4959663302915, "lng": 121.2922326802915 },
+        "southwest": { "lat": 14.4932683697085, "lng": 121.2895347197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Caltex",
+    "photos": [
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101118472655095063549\">Joseph Fernandez</a>"
+        ],
+        "photo_reference": "AZose0kEbVwanC1gZoW7M_MqRdoUK9Qq-cPSYAO4x3ZrYnPEL5QDdXKQhrwXeuAkqNthafK1ncegjzygd19rUtLeJHHzaiuLe4OKP7rn6hUQWaWnk6Azbxhc-HBmCOeJ4nWPnnFwqG9Twixwy3dWmtYFEbwpM2vev6jBG4HyJSKb9ZQvZP0N",
+        "width": 3120
+      }
+    ],
+    "place_id": "ChIJacGXnDzqlzMRBb-283l8i5I",
+    "rating": 2,
+    "reference": "ChIJacGXnDzqlzMRBb-283l8i5I",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 1,
+    "vicinity": "F7VR+R88, F Catapusan, Tanay"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.4965122, "lng": 121.292383 },
+      "viewport": {
+        "northeast": { "lat": 14.4979162802915, "lng": 121.2936569802915 },
+        "southwest": { "lat": 14.4952183197085, "lng": 121.2909590197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Flying V",
+    "place_id": "ChIJYXLflDvqlzMR7FBxjtF-RCg",
+    "reference": "ChIJYXLflDvqlzMR7FBxjtF-RCg",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "vicinity": "F7WR+JX2, Sampaloc Road, Tanay"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.4856117, "lng": 121.1868707 },
+      "viewport": {
+        "northeast": { "lat": 14.4868989802915, "lng": 121.1882378302915 },
+        "southwest": { "lat": 14.4842010197085, "lng": 121.1855398697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Shell",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108134312097013155052\">Dante Juanitas</a>"
+        ],
+        "photo_reference": "AZose0mJIZNLrHSNEGDlxbjU1i93F9OIaVMJkLETEUgT9MVdnvQ2Y-9s7gr_U_NpdCJqtkh-911BKL_4ZWNDcVSPVDAOtPILcGy2TfQQvVatcHvkP3RHOjlbh3OMasE1VteFgIh60veXKh4DL7dxnVlGuwErqT5LwWgMxwHwxqJH1MRn96K2",
+        "width": 4128
+      }
+    ],
+    "place_id": "ChIJ_dtcPe_DlzMRT_TGjvDgfpA",
+    "plus_code": {
+      "compound_code": "F5PP+6P Binangonan, Rizal, Philippines",
+      "global_code": "7Q63F5PP+6P"
+    },
+    "price_level": 2,
+    "rating": 4.4,
+    "reference": "ChIJ_dtcPe_DlzMRT_TGjvDgfpA",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 96,
+    "vicinity": "Manila East Road Lot 11637, Binangonan"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.5156269, "lng": 121.238867 },
+      "viewport": {
+        "northeast": { "lat": 14.5169797302915, "lng": 121.2403025302915 },
+        "southwest": { "lat": 14.51428176970849, "lng": 121.2376045697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Petron",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103911241498815044180\">Jerico Sungahid</a>"
+        ],
+        "photo_reference": "AZose0nUQB7Qy_jdYAo_ygBt4o6pSBX3raM1cfcxTarU9O2RxSCH2o_jCDLlbL6blgTcg-wWDFoXL3y5C8WSRvvGIdJm_kW77atMmhvV2Se2Gwdjk_zo1Oeja3yGu7LysB1ujqqlgYeFbM77Zytrfx4i33faLOW3f3OGmG7_yrIU3WQAIYm-",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJV-zVTb_BlzMRlM55sPQc-XM",
+    "plus_code": {
+      "compound_code": "G68Q+7G Morong, Rizal, Philippines",
+      "global_code": "7Q63G68Q+7G"
+    },
+    "rating": 4.4,
+    "reference": "ChIJV-zVTb_BlzMRlM55sPQc-XM",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 14,
+    "vicinity": "71 T. Claudio, Morong"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.522666, "lng": 121.262467 },
+      "viewport": {
+        "northeast": { "lat": 14.5241149802915, "lng": 121.2638528802915 },
+        "southwest": { "lat": 14.5214170197085, "lng": 121.2611549197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Petron",
+    "opening_hours": { "open_now": true },
+    "place_id": "ChIJpaNXANbBlzMRA9_nTiuh_o0",
+    "rating": 4.2,
+    "reference": "ChIJpaNXANbBlzMRA9_nTiuh_o0",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 9,
+    "vicinity": "G7F6+3X8, J. P. Rizal Street, Baras"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.523017, "lng": 121.2618273 },
+      "viewport": {
+        "northeast": { "lat": 14.5244028802915, "lng": 121.2631889302915 },
+        "southwest": { "lat": 14.5217049197085, "lng": 121.2604909697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "SEAOIL - Santiago Baras",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118332152930153531282\">Rose Ann Mananquil</a>"
+        ],
+        "photo_reference": "AZose0nfT1OVkEcEShvdB4TNBpyKGEESqfDwMvj-Q87zK4AXp2HuA9ys4fUs3Xbydul0yKeRBwd4DS1M1CHhvY-BTzkGlMMeo5uIvt_KXZ8jAjDXHdXB3MoP2NeYS-VeqMmsL9OI4qSG4ITVkkFnNK40VqzUPsY7srZU0tQ2QGSB_M9d7xQn",
+        "width": 1280
+      }
+    ],
+    "place_id": "ChIJ_6iC4tXBlzMRGgMrM2EFbAk",
+    "plus_code": {
+      "compound_code": "G7F6+6P Baras, Rizal, Philippines",
+      "global_code": "7Q63G7F6+6P"
+    },
+    "rating": 3.9,
+    "reference": "ChIJ_6iC4tXBlzMRGgMrM2EFbAk",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 9,
+    "vicinity": "J. P. Rizal Street, Brgy. Santiago, Baras"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.495847, "lng": 121.181053 },
+      "viewport": {
+        "northeast": { "lat": 14.4971670302915, "lng": 121.1824477802915 },
+        "southwest": { "lat": 14.4944690697085, "lng": 121.1797498197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Flying V",
+    "place_id": "ChIJz82C4PzDlzMRQClmAnvL93I",
+    "plus_code": {
+      "compound_code": "F5WJ+8C Binangonan, Rizal, Philippines",
+      "global_code": "7Q63F5WJ+8C"
+    },
+    "rating": 4,
+    "reference": "ChIJz82C4PzDlzMRQClmAnvL93I",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 3,
+    "vicinity": "flying v gas station, 138 Quarry Road, Binangonan"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.323805, "lng": 121.1123553 },
+      "viewport": {
+        "northeast": { "lat": 14.3251522802915, "lng": 121.1137500302915 },
+        "southwest": { "lat": 14.3224543197085, "lng": 121.1110520697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Petron",
+    "place_id": "ChIJszD96ZfZlzMRjxEUAXquyIw",
+    "rating": 4,
+    "reference": "ChIJszD96ZfZlzMRjxEUAXquyIw",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 2,
+    "vicinity": "84F6+GWH, Tatlong Hari Street, Market Area, Santa Rosa"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.316284, "lng": 121.108524 },
+      "viewport": {
+        "northeast": { "lat": 14.3176992302915, "lng": 121.1099021802915 },
+        "southwest": { "lat": 14.3150012697085, "lng": 121.1072042197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Flying V",
+    "photos": [
+      {
+        "height": 2560,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100894211773611617880\">Jeremiah Yambao</a>"
+        ],
+        "photo_reference": "AZose0lMeqxQmBRsdJJNd9Av09we5llAM_vutouEYGroiLwu2QlFQ-f6Ee4DkMREt8mTF7OcE8Uny1nzcY1N_J9nbm6KR1bOJCCuw5WL1lbKGMz2x6-aOtR-5cZpoOGlNYiE2cD_U_Ju2u3Lwwsw9OxbLOViAISPFEzUk35LFzewuc8Kjha6",
+        "width": 1440
+      }
+    ],
+    "place_id": "ChIJ30eP0LvZlzMRjBTaUK_yu9M",
+    "rating": 4.1,
+    "reference": "ChIJ30eP0LvZlzMRjBTaUK_yu9M",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 9,
+    "vicinity": "8485+GC6, Rizal Boulevard, Santa Rosa"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.4240192, "lng": 121.4420206 },
+      "viewport": {
+        "northeast": { "lat": 14.4254218802915, "lng": 121.4434026802915 },
+        "southwest": { "lat": 14.4227239197085, "lng": 121.4407047197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "SEAOIL - Siniloan Laguna",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 612,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103525867316687748010\">Abbie David</a>"
+        ],
+        "photo_reference": "AZose0levUCHTIyMd84jYCnwcopeMsFJYmOi_gUq95yH1Z-RjcaA3OUzqKMaypGEvVBXj9WYe7mol5Iqu-r7chlI2eAa2V5kJN9jDcqDZJLwjwlpx5nr0zl5VbwV21FhsdZZ6XfBdcUoTWhKODY7Nr2O65YQViQIb_w69mEe0TgY-YTxPOsx",
+        "width": 816
+      }
+    ],
+    "place_id": "ChIJrXynqirulzMR956wfqbPwEM",
+    "plus_code": {
+      "compound_code": "CCFR+JR Lumban, Laguna, Philippines",
+      "global_code": "7Q63CCFR+JR"
+    },
+    "rating": 4.2,
+    "reference": "ChIJrXynqirulzMR956wfqbPwEM",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 13,
+    "vicinity": "G. Redor St. Brgy Panadero, Lumban"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.5254063, "lng": 121.1575825 },
+      "viewport": {
+        "northeast": { "lat": 14.5267498302915, "lng": 121.1590155302915 },
+        "southwest": { "lat": 14.5240518697085, "lng": 121.1563175697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Flying V",
+    "photos": [
+      {
+        "height": 1968,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108519425766231662892\">Terence Mesa</a>"
+        ],
+        "photo_reference": "AZose0mbFHz_uG_1s3ZlfqDnVvBDDePlWsjKIvrIicVqQ6WPJOYHAutlRUnQndnzuQyDKkut3l23XkXtSNhMuHII5GWvrT7-sBzWdoe6vARtoGdvVjgMJ9h5zXs81EsDafdeLKw1X1jDOp5rGqHgvw4VDVH3ZEvpSSTiVXcDC9bfsTqBsll_",
+        "width": 4144
+      }
+    ],
+    "place_id": "ChIJs0hYTMbGlzMRGydc6mxk6vk",
+    "rating": 4.7,
+    "reference": "ChIJs0hYTMbGlzMRGydc6mxk6vk",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 11,
+    "vicinity": "G5G5+528, Manila East Road, Angono"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.2740169, "lng": 121.4047261 },
+      "viewport": {
+        "northeast": { "lat": 14.2752868802915, "lng": 121.4061091302915 },
+        "southwest": { "lat": 14.2725889197085, "lng": 121.4034111697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Petron",
+    "place_id": "ChIJE8VQCA_jlzMRkDsBiksLr0g",
+    "plus_code": {
+      "compound_code": "7CF3+JV Lumban, Laguna, Philippines",
+      "global_code": "7Q637CF3+JV"
+    },
+    "rating": 3.1,
+    "reference": "ChIJE8VQCA_jlzMRkDsBiksLr0g",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 7,
+    "vicinity": "102 National H-way, Landayan, San Pedro, Lumban"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.321331, "lng": 121.097092 },
+      "viewport": {
+        "northeast": { "lat": 14.3226527302915, "lng": 121.0983617302915 },
+        "southwest": { "lat": 14.3199547697085, "lng": 121.0956637697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Caltex Tagapo - Owelle",
+    "photos": [
+      {
+        "height": 1860,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109694292149760221649\">Mimi Fern</a>"
+        ],
+        "photo_reference": "AZose0n6QTKk1qTb6jxh9G5zlqFN1N0OFdO7MPlImquKtHKvgOwPRzSuNSDRkZbKYBi60f75Q5zW1xrNdCXk5hh9Sfbi4-FcsIX46mv95JXApPQwu7ZusHj9MCrHpy9QhoTkgMHgimLBBaf1jEvjOY1D8-Db0jZEp32byrfK87jotlBv-dRf",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJGfyTZ8HZlzMROqPYAH3Oxn4",
+    "rating": 3.9,
+    "reference": "ChIJGfyTZ8HZlzMROqPYAH3Oxn4",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 156,
+    "vicinity": "83CW+GRP, Manila South Road, Santa Rosa"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.3185229, "lng": 121.0976266 },
+      "viewport": {
+        "northeast": { "lat": 14.3199022302915, "lng": 121.0990615802915 },
+        "southwest": { "lat": 14.3172042697085, "lng": 121.0963636197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Shell",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100082436082564774651\">HALO HALO NG Buhay!</a>"
+        ],
+        "photo_reference": "AZose0lfBvtRcYpmXuMAckJ9LcIVx2R8Lo28QF349tY4r9SrXf9VFCiov07OYSnXaQ1HdK1-wkYT3otOe6M3QLZka0u5JZIfvrMGdQbz72gN35GRQy7BTgBUGymzMrkd1cVp36oBmySKwh9sjuhTThEzqR9nW70PVQDpwUkr4-wcIJgsHvit",
+        "width": 2268
+      }
+    ],
+    "place_id": "ChIJa4wEvsbZlzMRH7N6zT_dWwM",
+    "plus_code": {
+      "compound_code": "839X+C3 Santa Rosa, Laguna, Philippines",
+      "global_code": "7Q63839X+C3"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJa4wEvsbZlzMRH7N6zT_dWwM",
+    "scope": "GOOGLE",
+    "types": [
+      "gas_station",
+      "convenience_store",
+      "car_repair",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 30,
+    "vicinity": "Manila South Road National Highway Brgy, Santa Rosa"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.2547599, "lng": 121.391732 },
+      "viewport": {
+        "northeast": { "lat": 14.2560023802915, "lng": 121.3931247302915 },
+        "southwest": { "lat": 14.2533044197085, "lng": 121.3904267697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Shell",
+    "opening_hours": { "open_now": true },
+    "place_id": "ChIJ4co1D1HilzMRnyNvKZeK2bI",
+    "plus_code": {
+      "compound_code": "793R+WM Santa Cruz, Laguna, Philippines",
+      "global_code": "7Q63793R+WM"
+    },
+    "price_level": 2,
+    "rating": 3.5,
+    "reference": "ChIJ4co1D1HilzMRnyNvKZeK2bI",
+    "scope": "GOOGLE",
+    "types": [
+      "gas_station",
+      "convenience_store",
+      "car_wash",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 11,
+    "vicinity": "National Highway, Santa Cruz"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.327056, "lng": 121.0923767 },
+      "viewport": {
+        "northeast": { "lat": 14.3283674802915, "lng": 121.0936805302915 },
+        "southwest": { "lat": 14.32566951970849, "lng": 121.0909825697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "SEAOIL - Biñan Laguna",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 1836,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107826826818117520590\">Don Borras</a>"
+        ],
+        "photo_reference": "AZose0k1uAqHBumXfjUDUz5JDdvhk7sYpmtyyvmc-Ybx1caTtY7Oo3qNHESGk4gYn-u8POCNLrvSyBRZxtBFTpttcRM1th-njrycdHL9040QhPdS64ZuEwbkPZAtfg9EiqkFnErM6kQ4Jxl_ofXf-xJkYyrR44WZcRdpNx4kfdWVC5DATfo5",
+        "width": 3264
+      }
+    ],
+    "place_id": "ChIJobmHQOjZlzMR6TwC2p49BmM",
+    "plus_code": {
+      "compound_code": "83GR+RX Biñan, Laguna, Philippines",
+      "global_code": "7Q6383GR+RX"
+    },
+    "rating": 3.9,
+    "reference": "ChIJobmHQOjZlzMR6TwC2p49BmM",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "user_ratings_total": 37,
+    "vicinity": "9001 Manila South Road, Biñan"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.3006157, "lng": 121.1039797 },
+      "viewport": {
+        "northeast": { "lat": 14.3020024302915, "lng": 121.1054324802915 },
+        "southwest": { "lat": 14.2993044697085, "lng": 121.1027345197085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Shell",
+    "opening_hours": { "open_now": true },
+    "photos": [
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102864861398151302427\">Jerome Reña</a>"
+        ],
+        "photo_reference": "AZose0mQhXm9G5E0G2DH_csuDctbJVd-1Psgiqs6yppnQWa1HI-jpfzf7a9vO8zlMS3kVaN-1Z9zkx8TYFG6wdwXSuN8Q4el0go0EDIrHlyD5YyXIVCyKxGq1xfesGnrisqnR7p6nHTPXYqFHuOQFIeyeQULVcu33L-nsPy3r7bimO2Bxqb0",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJUYt9XkrYlzMRTrj3Aewcy_0",
+    "plus_code": {
+      "compound_code": "8423+6H Santa Rosa, Laguna, Philippines",
+      "global_code": "7Q638423+6H"
+    },
+    "price_level": 2,
+    "rating": 5,
+    "reference": "ChIJUYt9XkrYlzMRTrj3Aewcy_0",
+    "scope": "GOOGLE",
+    "types": [
+      "gas_station",
+      "convenience_store",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3,
+    "vicinity": "Manila S Rd Natl Rd Brgy, Santa Rosa"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": { "lat": 14.348888, "lng": 121.084732 },
+      "viewport": {
+        "northeast": { "lat": 14.3502464302915, "lng": 121.0860831302915 },
+        "southwest": { "lat": 14.3475484697085, "lng": 121.0833851697085 }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+    "icon_background_color": "#909CE1",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+    "name": "Petron",
+    "photos": [
+      {
+        "height": 456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107454403400817778485\">Redentor De Luna</a>"
+        ],
+        "photo_reference": "AZose0lHupDu8oQbuwZW_UZtUL-LbiF9szMzcVlE2tm0saA-faIpsst1hiUgZsX78O8gShdFkI1Vh7o4HRN-iwlAGCYkNCAUK8UeSHLICaJDgig9nhg6sp32FJ-cupn_H-4bIka6nPICuEk6x3DBLTv63KDbWVE_hxrzueQx_uKLltrs4nVS",
+        "width": 720
+      }
+    ],
+    "place_id": "ChIJRdicjAHalzMRxKrOMr2tT_w",
+    "reference": "ChIJRdicjAHalzMRxKrOMr2tT_w",
+    "scope": "GOOGLE",
+    "types": ["gas_station", "point_of_interest", "establishment"],
+    "vicinity": "Dela Daz, Pedro Paterno, Biñan"
+  }
+]

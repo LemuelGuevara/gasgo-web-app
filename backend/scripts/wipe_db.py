@@ -1,7 +1,7 @@
 import os
 import django
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gasgo_rest_api.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
 django.setup()
 
 from stations_app.models import Place, Location, Viewport, Geometry, Photo, OpeningHours

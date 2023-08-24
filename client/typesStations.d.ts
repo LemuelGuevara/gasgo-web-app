@@ -1,10 +1,11 @@
 type Station = {
-  stations?: (StationsEntity)[] | null;
+  stations?: (StationsDetails)[] | null;
+  station: StationDetails
 }
-type StationsEntity = {
+type StationDetails = {
   business_status: string;
   opening_hours: OpeningHours;
-  location: Location;
+  location: LocationCoords;
   icon: string;
   icon_background_color: string;
   icon_mask_base_uri: string;
@@ -14,20 +15,20 @@ type StationsEntity = {
   rating: number;
   reference: string;
   scope: string;
-  types?: (string)[] | null;
+  types?: string[] | null;
   user_ratings_total: number;
   vicinity: string;
 }
 type OpeningHours = {
   open_now: boolean;
-}
-type Location = {
+};
+interface LocationCoords {
   lat: number;
   lng: number;
 }
 type PhotosEntity = {
   height: number;
-  html_attributions?: (string)[] | null;
+  html_attributions?: string[] | null;
   photo_reference: string;
   width: number;
-}
+};
